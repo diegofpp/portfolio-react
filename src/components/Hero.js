@@ -8,7 +8,7 @@ const Hero = () => {
 
       <div className="md:ml-80 md:w-auto justify-center md:justify-center">
         <img 
-          src='https://i.postimg.cc/sgvKH9dW/hero-image.jpg'
+          src='https://i.postimg.cc/8CYBSR93/IMG-0402.jpg'
           alt='Hero'
           className="w-40 h-64 md:w-64 md:h-auto"
         />
