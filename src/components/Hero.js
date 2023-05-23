@@ -10,7 +10,7 @@ const Hero = () => {
         <img 
           src='https://i.postimg.cc/8CYBSR93/IMG-0402.jpg'
           alt='Hero'
-          className="w-40 h-64 md:w-64 md:h-auto"
+          className="rounded w-40 h-64 md:w-64 md:h-auto"
         />
       </div>
 
