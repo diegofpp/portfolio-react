@@ -15,7 +15,7 @@ function App() {
 
   return (
 
-    <div className="App font-roboto">
+    <div className="App font-roboto bg-white">
         <Navbar />
         <Hero />
         <Projects />

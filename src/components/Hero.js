@@ -1,19 +1,34 @@
+// import React from 'react';
+
+// const Hero = () => {
+//      return (
+// <div class="hero min-h-screen bg-base-200">
+//   <div class="hero-content flex-col lg:flex-row">
+//     <img src="https://i.postimg.cc/8CYBSR93/IMG-0402.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+//     <div>
+//       <h1 class="text-5xl font-bold">Box Office News!</h1>
+//       <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+//       <button class="btn btn-primary">Get Started</button>
+//     </div>
+//   </div>
+// </div>
+//      );
+// };
+
+// export default Hero;
+
 import React from 'react';
 
 const Hero = () => {
   return (
-    <div className=" bg-white min-h-screen flex flex-col md:flex-row items-center justify-center py-8 md:py-24 mx-4 font-roboto">
-
-
-
-      <div className="md:ml-80 md:w-auto justify-center md:justify-center">
-        <img 
+    <div className="bg-white min-h-screen flex flex-col md:flex-row items-center justify-center py-8 md:py-24 mx-4 font-roboto">
+      <div className="md:ml-80 md:w-40 md:h-64 border border-red-500 justify-center md:justify-center">
+        <img
           src='https://i.postimg.cc/8CYBSR93/IMG-0402.jpg'
           alt='Hero'
-          className="rounded w-40 h-64 md:w-64 md:h-auto"
+          className="rounded w-40 h-64 border border-blue-500 md:block"
         />
       </div>
-
 
       <div className="md:mr-60 flex-1 w-full md:w-1/2">
         <div className="p-8">
@@ -34,8 +49,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };
