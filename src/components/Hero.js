@@ -24,7 +24,7 @@ const Hero = () => {
     <div className="bg-white min-h-screen flex flex-col md:flex-row items-center justify-center py-8 md:py-24 mx-4 font-roboto">
       <div className="md:ml-80 md:w-40 md:h-64 border border-red-500 justify-center md:justify-center">
         <img
-          src='https://i.postimg.cc/8CYBSR93/IMG-0402.jpg'
+          src='https://i.postimg.cc/FFCnPwWn/IMG-0402-1.jpg'
           alt='Hero'
           className="rounded w-40 h-64 border border-blue-500 md:block"
         />
