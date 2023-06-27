@@ -8,7 +8,7 @@ const Projects = () => {
                 <h1 className="text-3xl md:text-4xl font-bold mt-20 text-center tracking-tighter"><span className="text-white bg-black inline-block">Projects</span>.</h1>
             </div>
 
-            <div className="mt-20 mx-4 flex flex-wrap justify-center">
+            <div className="mt-15 mx-4 flex flex-wrap justify-center">
 
             <div class="mt-20 mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow">
                 <a href="#">

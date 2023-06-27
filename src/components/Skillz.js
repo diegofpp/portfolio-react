@@ -9,7 +9,7 @@ const Skills = () => {
         <h1 className="text-3xl md:text-4xl font-bold mt-20 text-center tracking-tighter"><span className="text-white bg-black inline-block">Skills</span>.</h1>
     </div>
 
-      <div className="flex flex-wrap justify-center items-center mt-8">
+      <div className="border border-red-800 flex flex-wrap justify-center items-center mt-8 mb-16">
         {skills.map((skill) => (
           <div
             key={skill}
