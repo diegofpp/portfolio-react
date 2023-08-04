@@ -17,6 +17,8 @@ const Contact = () => {
     };
 
     return (
+
+        <section id="contact">
         <div className="mx-2">
             <h1 className="text-3xl md:text-4xl font-bold mt-20 text-center tracking-tighter"><span className="text-white bg-black inline-block">Contact</span>.</h1>
             <form className="mt-8 max-w-sm mx-auto" onSubmit={handleSubmit}>
@@ -72,6 +74,7 @@ const Contact = () => {
                 </div>
             </form>
         </div>
+        </section>
     );
 };
 

@@ -1,11 +1,11 @@
-
-
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
 
-      <div class="mt-16 flex flex-col items-center md:flex md:justify-center md:items-center">
+    <section id="hero">
+      <div class="mt-32 flex flex-col items-center md:flex md:justify-center md:items-center">
         <div class="inline-block mt-5"> 
         <img
           src='https://i.postimg.cc/FFCnPwWn/IMG-0402-1.jpg'
@@ -17,7 +17,7 @@ const Hero = () => {
         
         <div class="p-2">
 
-          <h1 className=" text-3xl font-bold mt-4 text-center tracking-tighter">
+          <h1 className="text-3xl font-bold mt-4 text-center tracking-tighter">
             Hello, my name is Diego and I am a{' '}
             <span className="text-white bg-black inline-block">Front-end Developer</span>.
           </h1>
@@ -28,16 +28,30 @@ const Hero = () => {
 
 
           <div className="flex justify-center space-x-4">
-            <button className="bg-black text-white rounded-lg px-3 text-lg font-medium text-center">
+            <Link
+              to="contact" 
+              smooth={true}
+              duration={500}
+            >
+            <button className="bg-black text-white rounded-lg p-2 text-lg font-medium border text-center">
               Contact Me
             </button>
-            <button className="bg-white text-black rounded-lg text-lg border-2 py-2 px-4">
+            </Link>
+            <Link
+              to="projects" 
+              smooth={true}
+              duration={500}
+            >
+            <button className="bg-white text-black rounded-lg text-lg border border-black p-2">
               See Projects
             </button>
+            </Link>
           </div>
 
         </div>
       </div>
+      
+    </section>
 
   );
 };

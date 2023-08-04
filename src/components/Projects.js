@@ -3,7 +3,7 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <>
+        <section id="projects">
             <div>
                 <h1 className="text-3xl md:text-4xl font-bold mt-20 text-center tracking-tighter"><span className="text-white bg-black inline-block">Projects</span>.</h1>
             </div>
@@ -64,7 +64,7 @@ const Projects = () => {
 
 
 
-        </>
+        </section>
     );
 }
 

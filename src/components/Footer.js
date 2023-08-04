@@ -9,7 +9,7 @@ const Footer = () => {
         <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-gray-500 hover:text-gray-700" size={24} />
         </a>
-        <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/diego___patricio" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="text-gray-500 hover:text-gray-700" size={24} />
         </a>
       </div>
